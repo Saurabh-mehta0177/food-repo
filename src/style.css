@@ -1,0 +1,84 @@
+/* .bottom-div-main:hover {
+  box-shadow: 4px 5px 12px rgba(40, 178, 237, 0.779);
+  border: 3px double yellow;
+  border-start-end-radius: 40px;
+  border-start-start-radius: 40px;
+  shape-outside: 10px;
+} */
+
+.bottom-div {
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  /* margin-left: 0.5%; */
+  margin-bottom: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background: #000;
+  padding: 20px;
+  text-align: center;
+  /* shape-outside: 10px; */
+  outline: 2px solid rgb(36, 236, 36);
+  opacity: 0.8;
+}
+
+.mt-2 {
+  width: 98%;
+  /* margin-left: 1%; */
+}
+
+.mb-1 {
+  margin-top: -12px;
+  margin-bottom: 8px;
+}
+
+.bottom-div p,
+p b,
+p a {
+  background-color: #000;
+  text-shadow: 1px 1px 2px rgb(193, 27, 104);
+  color: #fff;
+  font-weight: bolder;
+}
+
+.text-dark {
+  background: none;
+}
+
+
+.icon {
+  background-color: none;
+  border: none;
+  outline: none;
+  color: violet;
+  background-color: #fff;
+  font-size: xx-large;
+  transition: transform 0.6s ease;
+  transform: translateZ(0);
+}
+
+.icon:hover {
+  transform: scale(1.9) translateZ(70px);
+}
+
+.text-whit {
+  background-color: lightpink;
+  color: #000;
+}
+
+.last-div {
+  height: 100px;
+  margin-bottom: 25px;
+  width: 100%;
+  background-color: "#000";
+  height: "100px";
+  border: "3px solid aqua";
+  gap: "50px";
+}
+
+.end-icon {
+  color: blue;
+}
